@@ -1,0 +1,236 @@
+@media(min-width:320px) and (max-width:767px){
+    * {
+       padding: 0px;
+       margin: 0px;
+       box-sizing: border-box;
+       text-decoration: none;
+       
+     }
+       /* html,body{
+       height:50vh;
+       width:20%;
+   
+     } */
+   .nav-bar{
+       height:6vh;
+       width: 100vw;
+      
+       display: flex;
+       justify-content: space-evenly;
+   }
+   .logo-content{
+       height:5vh;
+       width:30%;
+   }
+   .logo{
+       
+       height:100%;
+       width:100%;
+       font-size: 2em;
+       text-align: center;
+   }
+   .navigation-bar{
+   visibility: hidden;
+   height:5vh;
+   width:15%;
+
+   }
+   .username{
+       height:5vh;
+       width:30%;
+       
+   }
+   .user{
+       height:100%;
+       width:70%;
+       border-radius: 7px;
+       background-color: rgba(229, 89, 112, 0.403);
+       font-size: 0.7em;
+   }
+   .name{
+       font-size:1em;
+       display: flex;
+       justify-content: center; 
+   }
+   
+   .hero-section {
+       height:100vh;
+       width: 100vw;
+       display: flex;
+       flex-direction: column;
+       justify-content: flex-start;
+       align-items: center;
+     }
+     
+      .left-div {
+       height:40%;
+       width: 100%;
+      
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center; 
+     }
+     .text {
+       font-size:1.5em;
+       text-align: center;
+       height: 3vh;
+       width: 100%;
+     
+     }
+     p {
+       font-size: 0.7em;
+       height: 4vh;
+       width: 80%;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+     
+   
+       
+     }
+     .book {
+       height: 4vh;
+       width: 40%;
+       border-radius: 20px;
+    
+       font-size: 0.5em;
+       background-color: rgba(229, 89, 112, 0.403);
+     }
+     .right-div {
+       height: 40%;
+       width: 50vw;
+       background-image: url("image/loundry.jpg");
+       background-position: center;
+       background-size:100%;
+       background-repeat: no-repeat;}
+   
+   }
+
+
+   /* tabe */
+   @media(min-width:768px) and (max-width:1090px){
+    * {
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+        text-decoration: none;
+      }
+      html,
+      body {
+        height: 100vh;
+        width: 100vw;
+      }
+      
+    .nav-bar{
+        height:60px;
+        width:100%;
+       
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .logo-content{
+        height:50px;
+        width:20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .logo{
+        
+            height:40px;
+            width:50%;
+        
+    }
+    
+    .navigation-bar{
+        height:50px;
+        width:60%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin:0% 20%;
+        font-size: 1em;
+        
+    }
+    
+    .username{
+        height:50px;
+        width:40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+       
+       
+    }
+    .user{
+        height:40px;
+        width:40%;
+        border-radius: 7px;
+     
+       
+    }
+    .name{
+        font-size:0.9em;
+        display: flex;
+        justify-content: center;
+        
+    }
+    .hero-section {
+        height: 90vh;
+        width: 100%;
+        
+        display:flex;
+      }
+      
+       .left-div {
+        height: 50%;
+        width: 40%;
+      
+      
+       
+        
+      }
+     .text {
+        font-size: 2em;
+        text-align: center;
+        height:3vh;
+        width: 90%;
+        margin-bottom: 3%;
+      }
+      p {
+        font-size: 1em;
+        margin-top: 2rem;
+        text-align: center;
+        /* height: 8vh;
+        width: 100%; */
+        
+      }
+      .book {
+        height: 3vh;
+        width: 40%;
+        border-radius: 20px;
+        margin-top: 2rem;
+        font-size: 0.6em;
+        background-color: rgba(229, 89, 112, 0.403);
+        margin-left: 30%;
+      }
+      
+       .right-div {
+        height: 60%;
+        width: 30%;
+       
+     
+    
+      
+        background-image: url("image/loundry.jpg");
+        background-position: center;
+        background-size:100%;
+        background-repeat: no-repeat;
+      }
+    }
+      
